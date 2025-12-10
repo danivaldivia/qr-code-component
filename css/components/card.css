@@ -31,6 +31,12 @@
   margin: 0;
   margin-bottom: 1rem;
 }
+
+.card__title a {
+  text-decoration: none;
+  color: var(--slate90);
+}
+
 .card__description {
   margin: 0;
   color: var(--slate500);
@@ -40,7 +46,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card__title {
+  .card__title a {
     text-decoration: underline;
   }
 }
